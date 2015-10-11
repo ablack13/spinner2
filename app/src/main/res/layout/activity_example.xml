@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ExampleActivity">
+
+    <TextView
+        android:id="@+id/tv_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No selected!" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <com.onebit.spinner2.Spinner2
+            android:id="@+id/spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:minWidth="100dp" />
+
+        <CheckBox
+            android:id="@+id/cb_reload_adapter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Reload adapter with default action" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_select_three_no_action"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:inputType="text"
+        android:text="Select \'Three\' without onClick" />
+
+    <Button
+        android:id="@+id/btn_select_five"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:text="Select \'Five\'" />
+
+    <Button
+        android:id="@+id/btn_select_nine"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:text="Select \'Nine\'" />
+
+    <Button
+        android:id="@+id/btn_select_nine_no_action"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:text="Select \'Nine\' without onClick" />
+</LinearLayout>
