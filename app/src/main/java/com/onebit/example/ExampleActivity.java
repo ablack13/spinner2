@@ -46,7 +46,7 @@ public class ExampleActivity extends AppCompatActivity implements View.OnClickLi
 
         spinner.setOnItemSelectedSpinner2Listener(onItemSelectedSpinner2Listener);
 
-        setAdapter(true);
+        setAdapter(false);
     }
 
     private void setAdapter(boolean withAction) {

@@ -32,7 +32,6 @@
             android:id="@+id/cb_reload_adapter"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:checked="true"
             android:text="Reload adapter with default action" />
     </LinearLayout>
 
