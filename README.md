@@ -24,7 +24,7 @@ Step 2. Add the dependency in the form
 
   ```java
 	dependencies {
-	        compile 'com.github.scijoker:spinner2:1.0'
+	        compile 'com.github.scijoker:spinner2:1.0.1'
 	}
  ```
 	
